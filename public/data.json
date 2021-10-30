@@ -1,0 +1,102 @@
+[
+    {
+        "_id": "617b3f76c1ba2643",
+        "index": 0,
+        "fee": "$3,389.17",
+        "picture": "https://i.ibb.co/vHD5fT1/new-York-usa.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Los angels,USA",
+        "category": "COFINE"
+    },
+    {
+        "_id": "617b3f76424",
+        "index": 1,
+        "fee": "$2,867.93",
+        "picture": "https://i.ibb.co/jGh9vt0/Spain.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Barcelona,Spain",
+        "category": "NAVIR"
+    },
+    {
+        "_id": "617b3f7",
+        "index": 2,
+        "fee": "$2,925.30",
+        "picture": "https://i.ibb.co/yQKQ6DW/Arab.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Dobai,UAE",
+        "category": "EURON"
+    },
+    {
+        "_id": "617b3f763a86",
+        "index": 3,
+        "fee": "$3,856.50",
+        "picture": "https://i.ibb.co/R7xWzhQ/malaysia.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Kualalampur,Malaysia",
+        "category": "EXOVENT"
+    },
+    {
+        "_id": "617b3f7627725f6",
+        "index": 4,
+        "fee": "$1,839.03",
+        "picture": "https://i.ibb.co/GkPXxYr/coxsbazar.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Cox's Bazar,Bangladesh",
+        "category": "CINESANCT"
+    },
+    {
+        "_id": "617b3f760dfff0d8a",
+        "index": 5,
+        "fee": "$1,129.21",
+        "picture": "https://i.ibb.co/9wQkSkM/thailand.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Pataya,Thailand",
+        "category": "PRIMORDIA"
+    },
+    {
+        "_id": "617b3f76cbc5d1f0d13",
+        "index": 6,
+        "fee": "$2,532.57",
+        "picture": "https://i.ibb.co/fQ1V8qt/norway.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Green Hinci,Norway",
+        "category": "QUINEX"
+    },
+    {
+        "_id": "617b3f760ac0bdfb8503",
+        "index": 7,
+        "fee": "$1,317.07",
+        "picture": "https://i.ibb.co/dP7HP2h/dubai.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Abudhabi,UAE",
+        "category": "CYCLONICA"
+    },
+    {
+        "_id": "617b3f76c0f6e5931f91f",
+        "index": 8,
+        "fee": "$3,514.42",
+        "picture": "https://i.ibb.co/gv9Qrs8/japan.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Tokyo,Japan",
+        "category": "ACUMENTOR"
+    },
+    {
+        "_id": "617b3f7610756d60835bd9",
+        "index": 9,
+        "fee": "$3,938.40",
+        "picture": "https://i.ibb.co/FgSnr8y/maldiv.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Male,Maldives",
+        "category": "EXERTA"
+    }
+]

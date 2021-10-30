@@ -1,0 +1,15 @@
+.btnLogin{
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px ;
+    margin-bottom: 30px;
+}
+.dd{
+   margin-right: 5px;
+}
+.google{
+    background-color: #EDF2F6;
+    padding-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 20px;
+}

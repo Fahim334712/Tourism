@@ -1,0 +1,71 @@
+
+.homeColor{
+    background-color: #EDF2F6;
+}
+.klSize{
+    height: 400px;
+    border-radius: 20px;
+    border: 5px solid aqua ;
+    
+}
+.secondHome{
+    display: flex;  
+}
+.text{
+    text-align: left;
+    margin-left: 10px;
+}
+.dataDes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+}
+.theDes{
+    border: 2px solid sandybrown;
+    border-radius: 20px;
+}
+.hj{
+    border-radius: 20px;
+}
+.there{
+    border-bottom: 2px solid goldenrod;
+}
+.theGridi{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+    margin-bottom: 5px;
+}
+.theDesigni{
+    border: 2px solid white;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.tourSize{
+    height: 200px;
+    width: 314px;
+}
+.Explor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.ExplotImg{
+    height: 450px;
+    width: 730px;
+}
+.gaffa{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+}
+.google{
+    margin-top: 70px;
+}
+.hiro{
+    border-bottom: 2px solid goldenrod;
+}
+.dataDesi{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}

@@ -1,0 +1,68 @@
+[
+    {
+        "_id": "617b3f76c1ba2643d1a4919d",
+        "index": 0,
+        "fee": "$3,389.17",
+        "fees": "$3,200.15",
+        "picture": "https://i.ibb.co/vHD5fT1/new-York-usa.jpg",
+        "description": "Los Angeles , city, seat of Los Angeles county, southern California, U.S. It is the second most populous city and metropolitan area (after New York City) in the United States.",
+        "details": "{}",
+        "name": "Los angels,USA",
+        "category": "COFINE"
+    },
+    {
+        "_id": "617b3f76424a6989d5cfdb10",
+        "index": 1,
+        "fee": "$2,867.93",
+        "fees": "$2,543.87",
+        "picture": "https://i.ibb.co/jGh9vt0/Spain.jpg",
+        "description": "Barcelona is a city on the coast of northeastern Spain. It is the capital and largest city of the autonomous community of Catalonia, as  second most populous municipality.",
+        "details": "",
+        "name": "Barcelona,Spain",
+        "category": "NAVIR"
+    },
+    {
+        "_id": "617b3f76392bc11ecd037a5f",
+        "index": 2,
+        "fee": "$2,925.30",
+        "fees": "$2,462.89",
+        "picture": "https://i.ibb.co/yQKQ6DW/Arab.jpg",
+        "description": "Dubai, also spelled Dubayy, city and capital of the emirate of Dubai, one of the wealthiest of the seven emirates that constitute the federation of the United Arab Emirates.",
+        "details": "{}",
+        "name": "Dobai,UAE",
+        "category": "EURON"
+    },
+    {
+        "_id": "617b3f763a866d9d1ba145d7",
+        "index": 3,
+        "fee": "$3,856.50",
+        "fees": "$3,559.32",
+        "picture": "https://i.ibb.co/R7xWzhQ/malaysia.jpg",
+        "description": "Kuala Lumpur, capital of Malaysia. The city is located in west-central Peninsular (West) Malaysia, midway along the west coast tin and rubber belt and about 25 miles (40 km).",
+        "details": "{}",
+        "name": "Kualalampur,Malaysia",
+        "category": "EXOVENT"
+    },
+    {
+        "_id": "617b3f7627725f640257f175",
+        "index": 4,
+        "fee": "$1,839.03",
+        "fees": "$1,567.23",
+        "picture": "https://i.ibb.co/GkPXxYr/coxsbazar.jpg",
+        "description": "Cox’s Bazar, town, southeastern Bangladesh. It is situated along the Bay of Bengal about 60 miles (100 km) south of Chittagong. The town, constituted a municipality in 1869.",
+        "details": "{}",
+        "name": "Cox's Bazar,Bangladesh",
+        "category": "CINESANCT"
+    },
+    {
+        "_id": "617b3f760dfff0d8af2cda78",
+        "index": 5,
+        "fee": "$1,129.21",
+        "fees": "$1,056.45",
+        "picture": "https://i.ibb.co/9wQkSkM/thailand.jpg",
+        "description": "A visit to Pattaya is a wonderful way to explore the beaches along the Gulf of Thailand. Relaxed and family-friendly Jomtien Beach is a hot spot for watersports and seaside. ",
+        "details": "{}",
+        "name": "Pataya,Thailand",
+        "category": "PRIMORDIA"
+    }
+]

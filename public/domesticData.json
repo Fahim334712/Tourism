@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "617b3f76c1ba2643",
+        "index": 0,
+        "fee": "$89",
+        "picture": "https://i.ibb.co/fxRbZ7W/pexels-jamie-patterson-2532003.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Bisana Khandi,Sylet",
+        "category": "COFINE"
+    },
+    {
+        "_id": "617b3f76424a6989d5cfdb1",
+        "index": 1,
+        "fee": "$67",
+        "picture": "https://i.ibb.co/vddhMSC/lk.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Nilasol,Bandarban",
+        "category": "NAVIR"
+    },
+    {
+        "_id": "617b3f76392bc11ecd03",
+        "index": 2,
+        "fee": "$30",
+        "picture": "https://i.ibb.co/YPwdxJG/pexels-pixabay-270736-min.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Kaptai,Rangamati",
+        "category": "EURON"
+    },
+    {
+        "_id": "617b3f763a866d9d1ba145",
+        "index": 3,
+        "fee": "$23",
+        "picture": "https://i.ibb.co/C261HzC/pexels-pok-rie-132037-min-1.jpg",
+        "description": "{}",
+        "details": "{}",
+        "name": "Quakata Sea Beach",
+        "category": "EXOVENT"
+    }
+]
