@@ -12,3 +12,8 @@
 .thebhn{
     border-top: 1px solid gray;
 }
+@media only screen and (max-width:688px){
+    .jhhh{
+       width: 400px;
+    } 
+}

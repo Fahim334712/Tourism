@@ -10,7 +10,7 @@ const Blogs = () => {
         const name = nameRef.current.value;
         const text = textRef.current.value;
         const newUser = { name, text };
-        fetch('http://localhost:5000/users', {
+        fetch('https://tranquil-falls-59831.herokuapp.com/users', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -20,14 +20,14 @@ const Blogs = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.insertedId) {
-                    alert('Blog Added Successfully');
+                    alert('Blog Added Successfully,Reload Please');
                     e.target.reset();
                 }
             })
         e.preventDefault();
     }
     useEffect(() => {
-        fetch('http://localhost:5000/users')
+        fetch('https://tranquil-falls-59831.herokuapp.com/users')
             .then(res => res.json())
             .then(data => SetUser(data));
     }, [])
@@ -36,7 +36,7 @@ const Blogs = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Alert! Sure Want to delet!')
         if (proceed) {
-            const url = `http://localhost:5000/users/${id}`;
+            const url = `https://tranquil-falls-59831.herokuapp.com/users/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
@@ -56,9 +56,9 @@ const Blogs = () => {
 
             <div>
                 <h2 className="text-danger mb-4 hiro">Add Your Blogs(share your experience)</h2>
-                <form onSubmit={handleForm} className="mt-3">
+                <form onSubmit={handleForm} className="mt-3 ">
                     <p>Name : <input type="text" placeholder="Your Name" ref={nameRef} /><br /></p>
-                    <textarea rows="4" cols="50" ref={textRef} >
+                    <textarea rows="4" cols="50" ref={textRef} className="jhhh">
                         Enter Blogs here...</textarea><br />
                     <input type="submit" value="Submit" />
                 </form>
@@ -69,7 +69,7 @@ const Blogs = () => {
                         <h6 className="apiName">Blogger Name : {user.name}</h6>
                         <p >{user.text}</p>
                         <div className="thebhn">
-                            <button>Update Data</button>
+
                             <button onClick={() => handleDelete(user._id)}>Delete Data</button>
                         </div>
                     </div>)

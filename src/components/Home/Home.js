@@ -11,7 +11,7 @@ const Home = () => {
     const [destinations, setDestinations] = useState([]);
     const [tours, setTours] = useState([]);
     useEffect(() => {
-        fetch('./homedata.json')
+        fetch('http://localhost:5000/datas')
             .then(res => res.json())
             .then(data => setDestinations(data));
     }, [])
@@ -92,10 +92,10 @@ const Home = () => {
                 <h1 className="text-danger mt-4 mb-4 hiro">About Us</h1>
                 <div className="gaffa  container">
                     <div>
-                        <img src="./images/oi.png" alt="" />
+                        <img className="samo" src="./images/oi.png" alt="" />
                     </div>
                     <div className="mt-5">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi cupiditate asperiores eveniet obcaecati ut dolor eaque quod laboriosam possimus quo repudiandae, quas adipisci corporis architecto? Totam autem delectus, minus quidem culpa pariatur harum consectetur laudantium vero animi iure ullam? Nemo, blanditiis dolor vitae quae quibusdam necessitatibus odio iure dolorum vel!</p>
+                        <p>Evergreen Express is the country’s first and leading online travel aggregator. Initially started with the name Travel Booking BD, we had a dream to make travel easier for people. And that is what we did since our inception. And now with our new, innovative, easy to use app, travel services are on your palm. The dynamic app lets you book your flight, find your perfect holiday from our thousands of holiday packages around the globe.</p>
                     </div>
                 </div>
             </section>

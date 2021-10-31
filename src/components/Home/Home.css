@@ -69,3 +69,51 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 5px;
 }
+@media only screen and (max-width:688px){
+    .dataDes{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 5px;
+    }
+    .theGridi{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 5px;
+        margin-bottom: 5px;
+    }
+    .Explor{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .gaffa{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 5px;
+    }
+    .dataDesi{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 5px;
+    }
+    .ExplotImg{
+        height: 250px;
+        width: 450px;
+    }
+    .samo{
+        width: 300px;
+    }
+    .secondHome{
+        display: grid; 
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 4px; 
+    }
+    .klSize{
+        height: 300px;
+        border-radius: 20px;
+        border: 5px solid aqua ;
+        
+    }
+    .banner img{
+        margin-top: 50px;
+    }
+}
