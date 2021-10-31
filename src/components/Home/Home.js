@@ -8,10 +8,12 @@ import './Home.css';
 
 const Home = () => {
     const historyDestination = useHistory();
+    const hist = useHistory();
+    const histre = useHistory();
     const [destinations, setDestinations] = useState([]);
     const [tours, setTours] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/datas')
+        fetch('https://thawing-atoll-37082.herokuapp.com/datas')
             .then(res => res.json())
             .then(data => setDestinations(data));
     }, [])
@@ -22,6 +24,12 @@ const Home = () => {
     }, [])
     const handleMoreDestination = () => {
         historyDestination.push('/destination');
+    }
+    const handleBooking = () => {
+        hist.push('/order');
+    }
+    const handleDetails = () => {
+        histre.push('/order/details');
     }
     return (
         <div className="homeColor ">
@@ -48,13 +56,13 @@ const Home = () => {
                                 {/* <img class="card-img-top" src="..." alt="Card image cap"> */}
                                 <div className="card-body">
                                     <h5 className="card-title">{destination.name}</h5>
-                                    <p>{destination.description}</p>
+
                                     <p className="text fw-bold there">Regular Price : {destination.fee}</p>
                                     <p className="text fw-bold there">Discount Price : {destination.fees}(after 20% discount)</p>
-                                    <Button variant="secondary">Details</Button>
+                                    <Button onClick={handleDetails} variant="secondary">Details</Button>
                                 </div>
                                 <div className="card-footer">
-                                    <Button variant="success">Booking Now</Button>
+                                    <Button onClick={handleBooking} variant="success">Booking Now</Button>
                                 </div>
                             </div>
 
