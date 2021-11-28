@@ -1,48 +1,70 @@
 .imgSize{
-    height: 250px;
+    height: 200px;
+    
 }
 .flexi{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    background-color: aqua;
-    
-    
+    background-color: #EDF2F6;
+   
+    /* background-image: url('../../img/travel.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.c-e{
+    margin-left: 190px;
+}
+.ds{
+    height: 50px;
+}
+.displ{
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -60px;
+    margin-bottom: -60px; */
 }
 .ghj{
     display: flex;
     align-items: center;
     align-content: space-between;
 }
-.colorr{
-    color: black;
-    font-weight: bold;
+.bg{
+    background-color: #800080;
 }
-.colorr:hover{
-    background-color:white;
-    color:black;
-    border-radius: 50px;
-    cursor: pointer;
+.nh{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
 }
+
 @media only screen and (max-width:688px){
     .ghj{
-        display: grid;
-        grid-template-rows: repeat(6,1fr);
+       display: flex;
+        /* grid-template-rows: repeat(6,1fr);
+        align-items: center; */
         align-items: center;
-        align-content: space-between;
+        justify-content: space-between;
+        font-size: 15px;
+        margin-right: 40px;
     }
-    .flexi{
-        display: grid;
-        grid-template-columns:repeat(1,1fr);
-        background-image: url(https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    /* .flexi{
+        display: flex; */
+        /* grid-template-columns:repeat(1,1fr); */
+        /* background-image: url(https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
         background-position: center top;
             background-size: 100% auto;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat; */
         
-    }
-    .colorr{
+    /* } */
+    /* .colorr{
         color:white;
         font-weight: bold;
         
-    }
+    } */
     
 }

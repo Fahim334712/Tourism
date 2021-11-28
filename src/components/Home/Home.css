@@ -69,6 +69,18 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 5px;
 }
+.kam{
+    height: 750px;
+}
+.caro{
+    background-image: url('../../img/bg.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 @media only screen and (max-width:688px){
     .dataDes{
         display: grid;
@@ -95,6 +107,10 @@
         grid-template-columns: repeat(1,1fr);
         grid-gap: 5px;
     }
+    .kam{
+        height: 100%;
+    }
+    
     .ExplotImg{
         height: 250px;
         width: 450px;
@@ -112,8 +128,5 @@
         border-radius: 20px;
         border: 5px solid aqua ;
         
-    }
-    .banner img{
-        margin-top: 50px;
     }
 }

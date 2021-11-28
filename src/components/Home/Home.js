@@ -1,10 +1,12 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Carousel } from 'react-bootstrap';
 import { useHistory } from 'react-router';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
-
-
+import photoOne from '../../img/one.jpg'
+import photoTwo from '../../img/two.jpg'
+import photoThree from '../../img/three.jpg'
 
 const Home = () => {
     const historyDestination = useHistory();
@@ -12,10 +14,11 @@ const Home = () => {
     const histre = useHistory();
     const [destinations, setDestinations] = useState([]);
     const [tours, setTours] = useState([]);
+
     useEffect(() => {
         fetch('./data.json')
             .then(res => res.json())
-            .then(data => setDestinations(data));
+            .then(data => setDestinations(data.slice(0, 6)));
     }, [])
     useEffect(() => {
         fetch('./domesticData.json')
@@ -33,9 +36,42 @@ const Home = () => {
     }
     return (
         <div className="homeColor ">
-            <div className="banner">
-                <img className="container" src="./images/banner.jpg" alt="" />
-            </div>
+            <Carousel className="caro">
+                <Carousel.Item interval={1000}>
+                    <img
+                        className="d-block w-100 kam"
+                        src={photoOne}
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>Explore The World</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={500}>
+                    <img
+                        className="d-block w-100 kam"
+                        src={photoTwo}
+                        alt="Second slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100 kam"
+                        src={photoThree}
+                        alt="Third slide"
+
+                    />
+                    <Carousel.Caption>
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
             <section className="secondHome container mb-2 mt-5">
                 <div>
                     <img className="klSize" src="./images/kl.jpg" alt="" />

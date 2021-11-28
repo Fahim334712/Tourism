@@ -4,4 +4,8 @@
 }
 .rafi{
     cursor: pointer;
+    color: white;
+}
+.bg{
+   background-color: #800080; 
 }

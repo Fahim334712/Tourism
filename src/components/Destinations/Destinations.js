@@ -7,7 +7,7 @@ const Destinations = () => {
     const history = useHistory();
     const [destinas, setDestinas] = useState([]);
     useEffect(() => {
-        fetch('https://thawing-atoll-37082.herokuapp.com/datas')
+        fetch('./data.json')
             .then(res => res.json())
             .then(data => setDestinas(data));
     }, [])
